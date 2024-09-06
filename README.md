@@ -1,12 +1,4 @@
 ﻿
-[**TABLE OF CONTENTS](#_page1_x72.00_y72.00) **[1** ](#_page1_x72.00_y72.00)[INTRODUCTION](#_page2_x72.00_y72.00) [2**](#_page2_x72.00_y72.00)**
-
-[**PERFORMED TASKS](#_page2_x72.00_y252.01) **[2** ](#_page2_x72.00_y252.01)[Environment Setup](#_page2_x72.00_y277.88)** [2 ](#_page2_x72.00_y277.88)[Data Collection](#_page2_x72.00_y571.73) [2 ](#_page2_x72.00_y571.73)[Designing Impulse](#_page4_x72.00_y265.27) [4 ](#_page4_x72.00_y265.27)[Deployment](#_page6_x72.00_y371.77) [6](#_page6_x72.00_y371.77)
-
-[**RESULTS](#_page7_x72.00_y72.00) **[7** ](#_page7_x72.00_y72.00)[With full sentences and only city names](#_page7_x72.00_y198.95)** [7 ](#_page7_x72.00_y198.95)[With leading and trailing silence trimmed](#_page7_x72.00_y446.30) [7 ](#_page7_x72.00_y446.30)[With noise, unknown data and changed parameters](#_page8_x72.00_y72.00) [8](#_page8_x72.00_y72.00)
-
-[**DISCUSSION](#_page9_x72.00_y452.85) **[10** ](#_page9_x72.00_y452.85)[LINKS](#_page10_x72.00_y421.11) [11**](#_page10_x72.00_y421.11)**
-
 1. **INTRODUCTION**
 
 The goal of the project is to train a machine learning model embedded on the Nano 33 BLE sense to perform audio classification, specifically recognising and classifying two different city names. The following city names were used in this classification task: 'Helsinki' and 'Kathmandu.' The user can ask the system questions such as "How is the weather in Helsinki?" or "What is the weather in Kathmandu?" Even with background noise and clutter, the created system would be able to identify city names from the user's question. This audio classification model was built, developed, and deployed using the EdgeImpulse development platform.
